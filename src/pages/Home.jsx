@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 import Header from '../components/Header';
+import SEO from '../components/SEO';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
 import ProductCard from '../components/ProductCard';
@@ -12,6 +13,10 @@ import { COMPANY_NAME, COMPANY_LOCATION, FOUNDED_YEAR } from '../data/constants'
 export default function Home() {
   return (
     <>
+      <SEO
+        title="Ray Dairy | Fresh & Quality Dairy Products"
+        description="Ray Dairy delivers fresh milk, paneer, ghee, curd, and premium dairy products with a commitment to quality, hygiene, and sustainability."
+      />
       <Header />
       <main>
         <Hero

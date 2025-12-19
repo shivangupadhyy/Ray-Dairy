@@ -1,6 +1,7 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
+import SEO from '../components/SEO';
 import ProductCard from '../components/ProductCard';
 import { ALL_PRODUCTS } from '../data/products';
 
@@ -12,6 +13,10 @@ export default function Products() {
 
   return (
     <>
+      <SEO
+        title="Our Products | Milk, Paneer, Ghee & Dairy Items"
+        description="Explore Ray Dairy’s premium product range including milk, paneer, ghee, curd, and other high-quality dairy products."
+      />
       <Header />
       <main>
         <Hero

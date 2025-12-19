@@ -1,6 +1,7 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
+import SEO from '../components/SEO';
 import { Award, Target, Users, TrendingUp } from 'lucide-react';
 import { CORE_VALUES } from '../data/features';
 import { COMPANY_NAME, COMPANY_LOCATION, FOUNDED_YEAR } from '../data/constants';
@@ -8,6 +9,10 @@ import { COMPANY_NAME, COMPANY_LOCATION, FOUNDED_YEAR } from '../data/constants'
 export default function About() {
   return (
     <>
+      <SEO
+        title="About Ray Dairy | Trusted Dairy Manufacturer"
+        description="Learn about Ray Dairy, our values, quality standards, and commitment to delivering safe and nutritious dairy products."
+      />
       <Header />
       <main>
         <Hero

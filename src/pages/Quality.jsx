@@ -1,12 +1,17 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
+import SEO from '../components/SEO';
 import { ShieldCheck, Leaf, Heart, Users } from 'lucide-react';
 import { FaCow } from 'react-icons/fa6';
 
 export default function Quality() {
   return (
     <>
+      <SEO
+        title="Quality & Sustainability | Ray Dairy"
+        description="Ray Dairy follows strict quality control, food safety standards, and sustainable practices to ensure safe and fresh dairy products."
+      />
       <Header />
       <main>
         <Hero

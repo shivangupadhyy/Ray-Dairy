@@ -3,6 +3,7 @@ import emailjs from '@emailjs/browser';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
+import SEO from '../components/SEO';
 import { Mail, Phone, MapPin } from 'lucide-react';
 import { FaFacebook, FaInstagram, FaXTwitter } from 'react-icons/fa6';
 import { CONTACT_INFO, SOCIAL_LINKS } from '../data/constants';
@@ -66,6 +67,10 @@ export default function Contact() {
 
   return (
     <>
+      <SEO
+        title="Contact Ray Dairy | Get in Touch"
+        description="Contact Ray Dairy for product inquiries, partnerships, or customer support. We’re here to help."
+      />
       <Header />
       <main>
         <Hero
