@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5F1E8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E8DCC8;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#grad1)"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="100" cy="100" r="60" fill="#FFF8F0" opacity="0.5"/>
+  <circle cx="700" cy="500" r="80" fill="#FFF8F0" opacity="0.3"/>
+  
+  <!-- Milk Glass -->
+  <g filter="url(#shadow)">
+    <!-- Glass -->
+    <path d="M 250 150 L 240 480 Q 240 500 260 500 L 340 500 Q 360 500 360 480 L 350 150 Z" fill="#FFFFFF" stroke="#D4AF9E" stroke-width="2"/>
+    <!-- Milk inside -->
+    <path d="M 250 280 L 240 480 Q 240 500 260 500 L 340 500 Q 360 500 360 480 L 350 280 Z" fill="#F0D7B8" opacity="0.7"/>
+    <!-- Glass shine -->
+    <ellipse cx="270" cy="250" rx="15" ry="40" fill="#FFFFFF" opacity="0.6"/>
+  </g>
+  
+  <!-- Cheese -->
+  <g filter="url(#shadow)">
+    <rect x="420" y="320" width="120" height="100" rx="5" fill="#F4D03F" stroke="#E8C547" stroke-width="2"/>
+    <!-- Holes in cheese -->
+    <circle cx="445" cy="345" r="8" fill="#E8C547" opacity="0.5"/>
+    <circle cx="485" cy="360" r="6" fill="#E8C547" opacity="0.5"/>
+    <circle cx="520" cy="350" r="7" fill="#E8C547" opacity="0.5"/>
+    <circle cx="455" cy="395" r="7" fill="#E8C547" opacity="0.5"/>
+    <circle cx="510" cy="390" r="6" fill="#E8C547" opacity="0.5"/>
+  </g>
+  
+  <!-- Yogurt Cup -->
+  <g filter="url(#shadow)">
+    <path d="M 570 200 L 560 420 Q 560 440 580 440 L 620 440 Q 640 440 640 420 L 630 200 Z" fill="#F8E6D3" stroke="#D4AF9E" stroke-width="2"/>
+    <!-- Yogurt -->
+    <path d="M 570 280 L 560 420 Q 560 440 580 440 L 620 440 Q 640 440 640 420 L 630 280 Z" fill="#F5D7A8"/>
+    <!-- Spoon -->
+    <rect x="650" y="280" width="8" height="120" fill="#C0A080"/>
+    <ellipse cx="654" cy="280" rx="12" ry="8" fill="#C0A080"/>
+  </g>
+  
+  <!-- Butter -->
+  <g filter="url(#shadow)">
+    <rect x="340" y="420" width="80" height="60" rx="3" fill="#F5D591" stroke="#E8C547" stroke-width="2"/>
+    <!-- Wrapper lines -->
+    <line x1="345" y1="435" x2="415" y2="435" stroke="#E8C547" stroke-width="1" opacity="0.5"/>
+    <line x1="345" y1="455" x2="415" y2="455" stroke="#E8C547" stroke-width="1" opacity="0.5"/>
+  </g>
+  
+  <!-- Decorative elements -->
+  <!-- Leaf 1 -->
+  <g transform="translate(150, 100)">
+    <path d="M 0 0 Q 10 5 15 0 Q 10 -5 0 0" fill="#8B7F6F" opacity="0.6"/>
+  </g>
+  
+  <!-- Leaf 2 -->
+  <g transform="translate(700, 150)">
+    <path d="M 0 0 Q 10 5 15 0 Q 10 -5 0 0" fill="#8B7F6F" opacity="0.6"/>
+  </g>
+  
+  <!-- Star decorations -->
+  <g fill="#D4AF9E" opacity="0.4">
+    <circle cx="200" cy="80" r="4"/>
+    <circle cx="750" cy="200" r="4"/>
+    <circle cx="150" cy="500" r="4"/>
+    <circle cx="680" cy="480" r="4"/>
+  </g>
+  
+  <!-- Text elements -->
+  <text x="400" y="560" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#5C4C42">
+    Pure Dairy Goodness
+  </text>
+</svg>
