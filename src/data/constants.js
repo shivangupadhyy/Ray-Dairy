@@ -1,6 +1,6 @@
 export const CONTACT_INFO = {
   phones: ['9871718201'],
-  email: 'realraydairy@gmail.com',
+  email: 'newmorningfood@gmail.com',
   factoryAddress: 'Mauza Gopalpur, Paragna, Karhal , Uttar Pradesh – 205284',
   officeAddress: 'Noida Sector 4 , A 75, 3rd Floor , Uttar Pradesh – 201301',
 };
