@@ -17,7 +17,7 @@ export default function Quality() {
         <Hero
           title="Quality & Sustainability"
           subtitle="Our commitment to excellence and environmental responsibility"
-          backgroundImage="/sunable.png"
+          backgroundImage="/plant6.jpg"
         />
 
         <section className="py-20 md:py-28 bg-white">
@@ -54,7 +54,7 @@ export default function Quality() {
               </div>
               <div className="relative h-96 rounded-2xl overflow-hidden shadow-2xl border border-gray/20">
                 <img
-                  src="/sustinable.jpg"
+                  src="/plant4.jpg"
                   alt="Quality control in dairy facility"
                   className="w-full h-full object-cover"
                 />
@@ -68,7 +68,7 @@ export default function Quality() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="order-2 md:order-1 relative h-96 rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src="/SustainabilityPractices.png"
+                  src="/plant5.jpg"
                   alt="Sustainable farming practices"
                   className="w-full h-full object-cover"
                 />

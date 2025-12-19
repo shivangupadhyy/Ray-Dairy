@@ -18,7 +18,7 @@ export default function About() {
         <Hero
           title="About New Morning Milk Products"
           subtitle="Pioneering excellence in dairy production since 2023"
-          backgroundImage="https://images.pexels.com/photos/10922959/pexels-photo-10922959.jpeg"
+          backgroundImage="plant2.jpg"
         />
 
         <section className="py-20 md:py-28 bg-white">
@@ -40,7 +40,7 @@ export default function About() {
               </div>
               <div className="relative h-96 rounded-2xl overflow-hidden shadow-2xl border border-gray/20">
                 <img
-                  src="https://images.pexels.com/photos/7598915/pexels-photo-7598915.jpeg"
+                  src="/plant3.jpg"
                   alt="Dairy processing facility"
                   className="w-full h-full object-cover"
                 />
@@ -178,7 +178,7 @@ export default function About() {
                 />
                 <img
                   alt="Packaged dairy products"
-                  src="ProductRange.jpg"
+                  src="/Group1.PNG"
                   className="rounded-lg bg-gray-100 w-full h-48 object-cover"
                 />
               </div>

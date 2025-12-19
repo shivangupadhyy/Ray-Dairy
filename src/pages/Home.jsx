@@ -50,7 +50,7 @@ export default function Home() {
               </div>
               <div className="relative h-96 rounded-2xl overflow-hidden shadow-2xl border border-gray/20">
                 <img
-                  src="https://images.pexels.com/photos/2889347/pexels-photo-2889347.jpeg"
+                  src="plant1.jpg"
                   alt="Modern dairy processing facility"
                   className="w-full h-full object-cover"
                 />
