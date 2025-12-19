@@ -13,14 +13,14 @@ export default function Hero({ title, subtitle, backgroundImage, primaryCTA, sec
         }}
         aria-hidden={true}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-black/20 via-primary/20 to-transparent pointer-events-none" aria-hidden={true}></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-black/55 via-black/40 to-black/30 pointer-events-none" aria-hidden={true}></div>
       </div>
 
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-20">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading leading-tight animate-fade-in">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading leading-tight animate-fade-in drop-shadow-2xl" style={{ textShadow: '0 4px 12px rgba(0, 0, 0, 0.8)' }}>
           {title}
         </h1>
-        <p className="text-lg md:text-xl lg:text-2xl text-cream/90 mb-10 leading-relaxed max-w-3xl mx-auto">
+        <p className="text-lg md:text-xl lg:text-2xl text-white mb-10 leading-relaxed max-w-3xl mx-auto font-medium drop-shadow-lg" style={{ textShadow: '0 3px 10px rgba(0, 0, 0, 0.8)' }}>
           {subtitle}
         </p>
         {(primaryCTA || secondaryCTA) && (
