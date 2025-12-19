@@ -4,7 +4,7 @@ export const FEATURED_PRODUCTS = [
     name: 'Skim Milk Powder (SMP)',
     description: 'Premium quality skim milk powder, perfect for various food applications and nutritional needs.',
     category: 'dairy-powders-fats',
-    image: '/skimmedmilkpowder.jpg',
+    image: '/SMP.png',
   },
   {
     id: 'ghee',
@@ -18,7 +18,7 @@ export const FEATURED_PRODUCTS = [
     name: 'Paneer',
     description: 'Fresh cottage cheese made daily from pure milk, perfect for Indian cuisine.',
     category: 'fresh-processed',
-    image: '/paneer.jpg',
+    image: '/Paneer.png',
   },
   {
     id: 'mozzarella',
@@ -49,7 +49,7 @@ export const ALL_PRODUCTS = [
     name: 'Whole Milk',
     description: 'Full cream milk with 6.0% fat content, rich and nutritious.',
     category: 'milk-products',
-    image: '/fullcreammilk.jpg',
+    image: '/fullcream.png',
     fatContent: '6.0%',
   },
   {
@@ -57,7 +57,7 @@ export const ALL_PRODUCTS = [
     name: 'Toned Milk',
     description: 'Balanced nutrition with 3.0% fat content.',
     category: 'milk-products',
-    image: '/TonedMilk.jpg',
+    image: '/tonedmilk.png',
     fatContent: '3.0%',
   },
   {
@@ -65,7 +65,7 @@ export const ALL_PRODUCTS = [
     name: 'Double Toned Milk',
     description: 'Light and healthy with 1.5% fat content.',
     category: 'milk-products',
-    image: '/doubleToned.jpg',
+    image: '/Doubletoned.png',
     fatContent: '1.5%',
   },
   {
@@ -73,7 +73,7 @@ export const ALL_PRODUCTS = [
     name: 'Cow Milk',
     description: 'Fresh cow milk sourced from healthy cows, available in various fat contents.',
     category: 'milk-products',
-    image: '/cowmilk.jpg',
+    image: '/Cow milk.png',
   },
   ...FEATURED_PRODUCTS,
   {
@@ -95,14 +95,14 @@ export const ALL_PRODUCTS = [
     name: 'Chaas',
     description: 'Traditional buttermilk, refreshing and digestive.',
     category: 'fresh-processed',
-    image: '/Buttermilk.png'
+    image: '/chaas.png'
   },
   {
     id: 'lassi',
     name: 'Lassi',
     description: 'Traditional yogurt-based drink, sweet and refreshing.',
     category: 'fresh-processed',
-    image: '/masalachaas.jpg',
+    image: '/Masala chaaas.png',
   },
   {
     id: 'khoa',
