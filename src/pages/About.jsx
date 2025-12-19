@@ -168,12 +168,12 @@ export default function About() {
                 />
                 <img
                   alt="Quality testing laboratory"
-                  src="/fullcreammilk.jpg"
+                  src="/fullcream.png"
                   className="rounded-lg bg-gray-100 w-full h-48 object-cover"
                 />
                 <img
                   alt="Modern dairy facility"
-                  src="/curds.jpg"
+                  src="/tonedmilk.png"
                   className="rounded-lg bg-gray-100 w-full h-48 object-cover"
                 />
                 <img
