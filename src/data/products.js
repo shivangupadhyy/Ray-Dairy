@@ -25,7 +25,7 @@ export const FEATURED_PRODUCTS = [
     name: 'Mozzarella Cheese',
     description: 'Authentic mozzarella cheese with perfect stretch and flavor.',
     category: 'further-products',
-    image: '/mozzarellaCheese.png',
+    image: '/mozzarellaCheese.jpg',
   },
    {
     id: 'butter',
@@ -123,7 +123,7 @@ export const ALL_PRODUCTS = [
     name: 'Ice Cream',
     description: 'Creamy, delicious ice cream in multiple flavors.',
     category: 'further-products',
-    image: 'https://images.pexels.com/photos/7761734/pexels-photo-7761734.jpeg',
+    image: '/icecream.jpeg',
   },
   {
     id: 'sweets',
