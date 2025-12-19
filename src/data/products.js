@@ -81,14 +81,14 @@ export const ALL_PRODUCTS = [
     name: 'Curd (Skimmed)',
     description: 'Fresh, healthy curd made from skimmed milk.',
     category: 'fresh-processed',
-    image: 'skim-curd.jpg',
+    image: 'lite dahi.png',
   },
   {
     id: 'curd-toned',
     name: 'Curd (Toned)',
     description: 'Creamy curd made from toned milk.',
     category: 'fresh-processed',
-    image: '/tonedCurd2.jpg',
+    image: '/dahi pack.png',
   },
   {
     id: 'chaas',
