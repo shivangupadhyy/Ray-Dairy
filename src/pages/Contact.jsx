@@ -76,7 +76,7 @@ export default function Contact() {
         <Hero
           title="Get in Touch"
           subtitle="We'd love to hear from you. Contact us for any inquiries or partnership opportunities."
-          backgroundImage="/contactus.png"
+          backgroundImage="/contactus.jpg"
         />
 
         <section className="py-16 md:py-24">

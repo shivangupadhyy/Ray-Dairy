@@ -39,7 +39,7 @@ export const FEATURED_PRODUCTS = [
     name: 'Dairy Whitener',
     description: 'Premium dairy whitener for perfect tea and coffee every time.',
     category: 'dairy-powders-fats',
-    image: '/dairyWhitner.jpg',
+    image: '/dairyWhitner.webp',
   },
 ];
 
@@ -116,7 +116,7 @@ export const ALL_PRODUCTS = [
     name: 'Cheese',
     description: 'Various cheese varieties for every taste.',
     category: 'further-products',
-    image: '/cheese.jpg',
+    image: '/cheese.webp',
   },
   {
     id: 'ice-cream',
@@ -130,6 +130,6 @@ export const ALL_PRODUCTS = [
     name: 'Traditional Dairy Sweets',
     description: 'Authentic Indian milk-based sweets and mithai.',
     category: 'further-products',
-    image: '/sweets.jpg',
+    image: '/sweets.webp',
   },
 ];
