@@ -32,7 +32,21 @@
 .bg-cover {
   background-size: cover !important;
   background-position: center !important;
-  background-attachment: fixed;
   -webkit-background-size: cover;
   -o-background-size: cover;
+}
+
+/* Desktop only – keep current look */
+@media (min-width: 1025px) {
+  .bg-cover {
+    background-attachment: fixed;
+  }
+}
+
+/* Mobile & iPhone fix – prevent zoom/crop */
+@media (max-width: 1024px) {
+  .bg-cover {
+    background-attachment: scroll;
+    background-position: center top;
+  }
 }

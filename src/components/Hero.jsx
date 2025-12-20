@@ -9,7 +9,6 @@ export default function Hero({ title, subtitle, backgroundImage, primaryCTA, sec
         style={{
           backgroundImage: `url(${backgroundImage})`,
           backgroundSize: 'cover',
-          backgroundPosition: 'center',
         }}
         aria-hidden={true}
       >
