@@ -269,7 +269,7 @@ export default function Contact() {
             </h2>
             <div className="rounded-2xl overflow-hidden shadow-xl h-96 md:h-[500px] border border-gray/20">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114284.89697154893!2d79.31426842343748!3d27.123456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjfCsDA3JzI0LjQiTiA3OcKwMjcnMjQuMSJF!5e0!3m2!1sen!2sin!4v1234567890123"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d56867.38929973103!2d78.9117856!3d27.0234715!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3975c7dea8efbcd7%3A0x8eb98f94a7a1cc61!2sNew%20Morning%20Milk%20Products%20Private%20Limited!5e0!3m2!1sen!2sin!4v1766218913088!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

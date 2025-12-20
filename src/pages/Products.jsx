@@ -22,7 +22,7 @@ export default function Products() {
         <Hero
           title="Our Premium Product Range"
           subtitle="Discover our wide selection of high-quality dairy products"
-          backgroundImage="/heroProduct.PNG"
+          backgroundImage="/productHome.jpg"
         />
 
         <section className="py-20 md:py-28 bg-white">
